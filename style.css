@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+.mar{
+    transform: translate(0px,10px);
+    width: 300px;
+    border: 5px solid black;
+    transition: border-raduis 0.45s;
+    filter: grayscale(50%);
+    box-shadow: 5px 15px 20px black;
+}
+
+.mar :hover{
+    border-radius: 30px;
+    filter: grayscale(10%);
+}
+p {
+    transform: translate(0px, 25px);
+}
+.btn{
+   background-color: green;
+   border: none;
+   border-radius: 15px;
+   width: 100px;
+   height: 30px;
+   box-shadow: 20px;
+   transform: translate(0px, 30px);
+}
